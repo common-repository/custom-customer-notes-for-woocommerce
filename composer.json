@@ -1,0 +1,26 @@
+{
+	"name": "trustio/custom_customer_notes",
+	"license": "GPL-2.0-or-later",
+	"description": "This is a lightweight plugin for WooCommerce that makes it possible to instant add customer or private notes with predefined messages.",
+	"keywords": [
+		"wordpress", "wp", "plugin template", "WooCommerce"
+	],
+	"support": {
+		"issues": "https://trustiosolutions.se/"
+	},
+	"require": {
+		"php": ">=5.4",
+		"squizlabs/php_codesniffer": "^3.3.1"
+    },
+	"require-dev": {
+        "wp-coding-standards/wpcs": "^2.1.1"
+    },
+	"scripts": {
+		"post-install-cmd": [
+			"\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs"
+		],
+		"post-update-cmd": [
+			"\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs"
+		]
+	}
+}

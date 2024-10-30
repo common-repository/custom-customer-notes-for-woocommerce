@@ -1,0 +1,10 @@
+/* phpcs:ignore */
+
+.custom_customer_note_holder {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.custom_customer_note_button {
+    margin-left: 5px !important;
+}

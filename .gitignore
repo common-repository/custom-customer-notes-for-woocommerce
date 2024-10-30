@@ -1,0 +1,7 @@
+.DS_Store
+.update_git.sh
+vendor
+node_modules
+package.json
+package-lock.json
+wordpress-release/
